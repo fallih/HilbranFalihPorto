@@ -1,0 +1,28 @@
+/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.h-screen {
+  height: 100vh;
+}
+.w-full {
+  width: 100%;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.rounded-full {
+  border-radius: calc(infinity * 1px);
+}
+.underline {
+  text-decoration-line: underline;
+}
